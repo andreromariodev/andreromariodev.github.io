@@ -1,0 +1,21 @@
+{
+  "name": "André Romário Dev",
+  "short_name": "ARD",
+  "description": "Portfólio desenvolvido com o Next.js transformado em PWA.",
+  "start_url": "/portfolio/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#b751d2",
+  "icons": [
+    {
+      "src": "/portfolio/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/portfolio/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
