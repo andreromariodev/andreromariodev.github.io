@@ -1,6 +1,7 @@
 import "@/styles/globals.css";
 
 import Public from "../components/Layouts/Public";
+import { useEffect } from "react";
 
 export default function App({ Component, pageProps }) {
   useEffect(() => {
@@ -10,7 +11,7 @@ export default function App({ Component, pageProps }) {
       });
     }
   }, []);
-  
+
   return (
     <>
       <Public>
