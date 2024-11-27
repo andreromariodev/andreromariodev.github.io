@@ -123,7 +123,7 @@ const HomePage = () => {
             <div>
               <div className="social">
                 <a
-                  href="https://github.com/devdrebg"
+                  href="https://github.com/andreromariodev"
                   target="_blank"
                   title="Meu GitHub"
                 >
