@@ -12,6 +12,7 @@ const nextConfig = {
     locales: ["pt", "en"],
     defaultLocale: "en",
   },
+  output: 'export',
 };
 
 export default nextConfig;
