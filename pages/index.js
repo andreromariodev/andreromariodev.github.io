@@ -114,7 +114,7 @@ const HomePage = () => {
           <div className="about__info">
             <Picture>
               <img
-                src="/img/andreromario.jpg"
+                src="./img/andreromario.jpg"
                 alt="André Romário"
                 title="André Romário"
               />
