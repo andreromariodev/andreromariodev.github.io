@@ -3,6 +3,7 @@
   "short_name": "ARD",
   "description": "Portfólio desenvolvido com o Next.js transformado em PWA.",
   "start_url": "/portfolio/",
+  "scope": "/portfolio/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#b751d2",
