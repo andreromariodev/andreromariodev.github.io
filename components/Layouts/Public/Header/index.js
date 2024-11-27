@@ -9,6 +9,7 @@ import Container from "../../../Container";
 import Brazil from "../../../../assets/svg/Brazil.svg";
 import Usa from "../../../../assets/svg/Usa.svg";
 import Trigram from "../../../../assets/svg/Trigram.svg";
+import Close from "../../../../assets/svg/Close.svg";
 
 import {
   Desktop,
@@ -71,7 +72,7 @@ const HeaderComponent = (props) => {
                 setMobileMenu(!mobileMenu);
               }}
             >
-              <Trigram />
+              {mobileMenu ? <Close /> : <Trigram />}
             </button>
           </div>
         </MobileToggle>

@@ -154,6 +154,8 @@ const HomePage = () => {
                 </a>
               </p>
 
+              <p>{t.english_level}</p>
+
               <h2>{t.about}:</h2>
               <p>{t.about_intro}</p>
               <p>{t.about_description}</p>

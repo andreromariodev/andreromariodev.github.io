@@ -50,16 +50,20 @@ export const Menu = styled.nav`
   @media (max-width: 1024px) {
     &.-active {
       display: grid;
-      justify-content: flex-start !important;
     }
 
     display: none;
     flex-direction: column;
+    width: 100%;
   }
 `;
 
 export const MenuItem = styled.li`
   list-style: none;
+
+  @media (max-width: 1024px) {
+    width: 100%;
+  }
 
   a {
     @media (max-width: 1024px) {
