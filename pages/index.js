@@ -33,21 +33,74 @@ import {
 } from "./style";
 
 const HomePage = () => {
-  const router = useRouter();
-  const { locale } = router;
-  const t = locale === "pt" ? ptBR : enUS;
+  // const router = useRouter();
+  // const { locale } = router;
+  // const t = locale === "pt" ? ptBR : enUS;
+  const t = enUS;
 
-  const [projects, setProjects] = useState([]);
+  const [projects, setProjects] = useState([
+    {
+      url: "https://bit.ly/3cE0Gam",
+      title: "Buffet Badallus Club",
+      src: "./img/buffetbadallusclub.png",
+    },
+    {
+      url: "https://bit.ly/2U35oZ1",
+      title: "DGR Comunicação Visual",
+      src: "./img/dgrcomunicacaovisual.png",
+    },
+    {
+      url: "https://bit.ly/3cDyt3H",
+      title: "Neves Bomfim",
+      src: "./img/nevesbomfim.png",
+    },
+    {
+      url: "https://bit.ly/3gg0xvY",
+      title: "Primepass",
+      src: "./img/primepass.png",
+    },
+    {
+      url: "https://valoramadeira.com/",
+      title: "Valora Madeira",
+      src: "https://valoramadeira.com/wp-content/uploads/2021/08/fundo.jpg",
+    },
+    {
+      url: "https://bit.ly/3xd5aNd",
+      title: "STI Máquinas",
+      src: "./img/stimaquinas.png",
+    },
+    {
+      url: "https://bit.ly/35cSLwz",
+      title: "Nova Ceasa ABC",
+      src: "./img/novaceasaabc.png",
+    },
+    {
+      url: "https://bit.ly/3zmMkoy",
+      title: "TecPat",
+      src: "./img/tecpat.png",
+    },
+    {
+      url: "https://bit.ly/3zuIiLd",
+      title: "Vero Internet",
+      src: "./img/verointernet.png",
+    },
+    {
+      url: "https://bit.ly/3wq7EIc",
+      title: "Heat Tech",
+      src: "./img/heattech.png",
+    },
+  ]);
+  // const [projects, setProjects] = useState([]);
 
-  async function getProjects() {
-    let newProjects = await fetch("/api/projects").then((response) => {
-      return response.json();
-    });
-    setProjects(newProjects);
-  }
+  // async function getProjects() {
+  //   const newProjects = await fetch("/api/projects").then((response) =>
+  //     response.json()
+  //   );
+  //   setProjects(newProjects); // Atualiza o estado com os projetos
+  // }
 
   useEffect(() => {
-    getProjects();
+    // getProjects();
   }, []);
 
   return (

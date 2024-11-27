@@ -8,10 +8,10 @@ const nextConfig = {
     return config;
   },
   reactStrictMode: true,
-  i18n: {
-    locales: ["pt", "en"],
-    defaultLocale: "en",
-  },
+  // i18n: {
+  //   locales: ["pt", "en"],
+  //   defaultLocale: "en",
+  // },
   output: 'export',
 };
 

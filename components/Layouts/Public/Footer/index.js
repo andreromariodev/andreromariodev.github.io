@@ -1,4 +1,4 @@
-import { useRouter } from "next/router";
+// import { useRouter } from "next/router";
 
 import dynamic from "next/dynamic";
 
@@ -11,9 +11,10 @@ import { Footer } from "./style";
 import Nextjs from "../../../../assets/svg/Nextjs.svg";
 
 const FooterComponent = (props) => {
-  const router = useRouter();
-  const { locale } = router;
-  const t = locale === "en" ? enUS : ptBR;
+  // const router = useRouter();
+  // const { locale } = router;
+  // const t = locale === "pt" ? ptBR : enUS;
+  const t = enUS;
 
   let year = new Date().getFullYear();
 

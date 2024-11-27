@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useRouter } from "next/router";
+// import { useRouter } from "next/router";
 
 import dynamic from "next/dynamic";
 
@@ -20,9 +20,10 @@ import {
 } from "./style";
 
 const HeaderComponent = (props) => {
-  const router = useRouter();
-  const { locale } = router;
-  const t = locale === "pt" ? ptBR : enUS;
+  // const router = useRouter();
+  // const { locale } = router;
+  // const t = locale === "pt" ? ptBR : enUS;
+  const t = enUS;
 
   const [mobileMenu, setMobileMenu] = useState(false);
 
@@ -47,7 +48,7 @@ const HeaderComponent = (props) => {
           <span>Menu</span>
 
           <div className="mobileAside">
-            <LangSwitcher className="showMobile">
+            {/* <LangSwitcher className="showMobile">
               {locale === "en" ? (
                 <button
                   title="Brazilian Portuguese Version"
@@ -63,7 +64,7 @@ const HeaderComponent = (props) => {
                   <Usa />
                 </button>
               )}
-            </LangSwitcher>
+            </LangSwitcher> */}
 
             <button
               onClick={() => {
@@ -110,7 +111,7 @@ const HeaderComponent = (props) => {
             </MenuItem>
           </Menu>
 
-          <LangSwitcher className="hideMobile">
+          {/* <LangSwitcher className="hideMobile">
             {locale === "en" ? (
               <button
                 title="Brazilian Portuguese Version"
@@ -126,7 +127,7 @@ const HeaderComponent = (props) => {
                 <Usa />
               </button>
             )}
-          </LangSwitcher>
+          </LangSwitcher> */}
         </Desktop>
       </Container>
     </Header>
