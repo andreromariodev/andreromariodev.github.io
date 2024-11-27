@@ -9,7 +9,7 @@ const nextConfig = {
   },
   reactStrictMode: true,
   output: 'export',
-  basePath: '/portfolio', // Define o subdiretório base
+  basePath: '/portfolio', // TODO: Define o subdiretório base, comentar ao atuar em desenvolvimento
   images: {
     unoptimized: true, // Evita problemas com imagens no export
   },
