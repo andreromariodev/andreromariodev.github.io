@@ -10,7 +10,7 @@ import { Footer } from "./style";
 
 import Nextjs from "../../../../assets/svg/Nextjs.svg";
 
-const index = (props) => {
+const FooterComponent = (props) => {
   const router = useRouter();
   const { locale } = router;
   const t = locale === "en" ? enUS : ptBR;
@@ -28,6 +28,6 @@ const index = (props) => {
   );
 };
 
-export default dynamic(() => Promise.resolve(index), {
+export default dynamic(() => Promise.resolve(FooterComponent), {
   ssr: false,
 });

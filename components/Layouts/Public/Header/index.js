@@ -19,7 +19,7 @@ import {
   MenuItem,
 } from "./style";
 
-const index = (props) => {
+const HeaderComponent = (props) => {
   const router = useRouter();
   const { locale } = router;
   const t = locale === "pt" ? ptBR : enUS;
@@ -133,6 +133,6 @@ const index = (props) => {
   );
 };
 
-export default dynamic(() => Promise.resolve(index), {
+export default dynamic(() => Promise.resolve(HeaderComponent), {
   ssr: false,
 });

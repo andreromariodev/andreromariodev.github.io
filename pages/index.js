@@ -32,7 +32,7 @@ import {
   Projects,
 } from "./style";
 
-const index = () => {
+const HomePage = () => {
   const router = useRouter();
   const { locale } = router;
   const t = locale === "pt" ? ptBR : enUS;
@@ -253,6 +253,6 @@ const index = () => {
   );
 };
 
-export default dynamic(() => Promise.resolve(index), {
+export default dynamic(() => Promise.resolve(HomePage), {
   ssr: false,
 });
