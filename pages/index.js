@@ -107,7 +107,7 @@ const HomePage = () => {
   return (
     <>
       <Head>
-        <title>{t.title} | andreromario.dev</title>
+        <title>{t.title} | andreromariodev</title>
       </Head>
 
       <section className="section" id="about">

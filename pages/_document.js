@@ -4,14 +4,27 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        {/* Cor da barra de endereço no navegador (Chrome/Android) */}
         <meta name="theme-color" content="#b751d2" />
-        
-        {/* Cor da barra de status do iOS (Safari) */}
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-        
-        {/* Configuração para Windows (pinned site) */}
+        <meta name="apple-mobile-web-app-status-bar-style" content="#b751d2" />
         <meta name="msapplication-navbutton-color" content="#b751d2" />
+        <meta name="title" content="Frontend Developer | andreromariodev" />
+        <meta name="description" content="A creative portfolio showcasing my web development and graphic design projects." />
+        <meta name="keywords" content="portfolio, web development, graphic design, JavaScript, React" />
+        <meta name="author" content="Andre Romario" />
+        <meta name="robots" content="index, follow" />
+
+        {/* Open Graph (para Facebook, LinkedIn, etc.) */}
+        <meta property="og:title" content="Frontend Developer | andreromariodev" />
+        <meta property="og:description" content="A creative portfolio showcasing my web development and graphic design projects." />
+        <meta property="og:image" content="https://andreromariodev.github.io/img/andreromario.jpg" />
+        <meta property="og:url" content="https://andreromariodev.github.io/portfolio/" />
+        <meta property="og:type" content="website" />
+
+        {/* Twitter Cards (para compartilhamentos no Twitter) */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Frontend Developer | andreromariodev" />
+        <meta name="twitter:description" content="A creative portfolio showcasing my web development and graphic design projects." />
+        <meta name="twitter:image" content="https://andreromariodev.github.io/img/andreromario.jpg" />    
       </Head>
       <body>
         <Main />
