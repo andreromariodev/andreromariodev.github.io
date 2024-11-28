@@ -20,6 +20,7 @@ import Php from "../assets/svg/Php.svg";
 import Sql from "../assets/svg/Sql.svg";
 import Vuejs from "../assets/svg/Vuejs.svg";
 import Wordpress from "../assets/svg/Wordpress.svg";
+import Git from "../assets/svg/Git.svg";
 import Github from "../assets/svg/Github.svg";
 import Linkedin from "../assets/svg/Linkedin.svg";
 import Email from "../assets/svg/Email.svg";
@@ -288,6 +289,10 @@ const HomePage = () => {
             <li title="WordPress">
               <Wordpress />
               WordPress
+            </li>
+            <li title="Git">
+              <Git />
+              Git
             </li>
           </Stacks>
         </Container>
