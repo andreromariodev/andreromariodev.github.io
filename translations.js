@@ -6,6 +6,7 @@ export const enUS = {
   stacks: "Some Stacks",
   professional_experience: "Professional Experience",
   portfolio: "Some Projects",
+  my_cv: "Download my CV",
   contact: "Contact",
   development: "Made with",
   about_intro: "My name is André Romario, i live in Sao Paulo, Brazil and i'm 30 years old.",
@@ -63,6 +64,7 @@ export const ptBR = {
   professional_experience: "Experiência Profissional",
   portfolio: "Portfólio",
   contact: "Contato",
+  my_cv: "Meu Currículo",
   development: "Deselvolvido com",
   about_intro: "Meu nome é André Romário, moro na cidade de São Paulo, Brasil e tenho 30 anos de idade",
   about_description: `Graduado em Sistemas para Internet, atuo como desenvolvedor desde 2011, construindo uma carreira sólida em desenvolvimento web e mobile. Minha expertise abrange tecnologias de front-end, como JavaScript, React, React Native, Vue, além de ferramentas de back-end, como PHP, Node.js e SQL. Também possuo fortes habilidades em HTML, CSS, SEO e metodologias de UX, permitindo-me criar experiências digitais centradas no usuário e de alto desempenho.

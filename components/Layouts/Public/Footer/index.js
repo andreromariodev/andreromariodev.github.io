@@ -6,9 +6,10 @@ import { enUS, ptBR } from "../../../../translations";
 
 import Container from "../../../Container";
 
-import { Footer } from "./style";
+import { Footer, LinkWhatsapp } from "./style";
 
 import Nextjs from "../../../../assets/svg/Nextjs.svg";
+import Whatsapp from "../../../../assets/svg/Whatsapp.svg";
 
 const FooterComponent = (props) => {
   // const router = useRouter();
@@ -19,13 +20,19 @@ const FooterComponent = (props) => {
   let year = new Date().getFullYear();
 
   return (
-    <Footer>
-      <Container>
-        <p>
-          {t.development}: <Nextjs title="Next.js" /> - {year}
-        </p>
-      </Container>
-    </Footer>
+    <>
+      <Footer>
+        <Container>
+          <p>
+            {t.development}: <Nextjs title="Next.js" /> - {year}
+          </p>
+        </Container>
+      </Footer>
+
+      <LinkWhatsapp href="https://wa.me/5511985204317" target="_blank" title="Send-me a text message on WhatsApp">
+        <Whatsapp />
+      </LinkWhatsapp>
+    </>
   );
 };
 

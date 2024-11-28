@@ -1,10 +1,16 @@
 import styled from "styled-components";
 
 export const Picture = styled.figure`
+  border: 5px solid var(--primary);
+  background-color: var(--primary);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+
   img {
-    border: 5px solid var(--primary);
-    border-radius: 50%;
     width: 200px;
+    height: 200px;
     margin: auto;
   }
 `;

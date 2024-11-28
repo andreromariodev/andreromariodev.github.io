@@ -108,6 +108,9 @@ const HeaderComponent = (props) => {
               </a>
             </MenuItem>
             <MenuItem>
+              <a href="/cv-andreromariodev.pdf" target="_blank" download>{t.my_cv}</a>
+            </MenuItem>
+            <MenuItem>
               <a href="mailto:andreromario@live.com">{t.contact}</a>
             </MenuItem>
           </Menu>
