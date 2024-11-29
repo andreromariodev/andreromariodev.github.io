@@ -160,7 +160,7 @@ const HomePage = () => {
             <div className="side_b">
               <h1>{t.page_title}</h1>
               <p>{t.about_intro}</p>
-              <p>{t.about_description}</p>
+              <div dangerouslySetInnerHTML={{ __html: t.about_description }}></div>
             </div>
           </div>
         </Container>

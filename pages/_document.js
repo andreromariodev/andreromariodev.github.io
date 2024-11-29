@@ -4,9 +4,9 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <meta name="theme-color" content="#b751d2" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="#b751d2" />
-        <meta name="msapplication-navbutton-color" content="#b751d2" />
+        <meta name="theme-color" content="#43A047" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="#43A047" />
+        <meta name="msapplication-navbutton-color" content="#43A047" />
         <meta name="title" content="Frontend Developer | andreromariodev" />
         <meta name="description" content="A creative portfolio showcasing my web development and graphic design projects." />
         <meta name="keywords" content="portfolio, web development, graphic design, JavaScript, React" />

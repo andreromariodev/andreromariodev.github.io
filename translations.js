@@ -11,15 +11,9 @@ export const enUS = {
   my_cv: "Download my CV",
   contact: "Contact",
   development: "Made with",
-  about_intro: "My name is André Romario, i live in Sao Paulo, Brazil and i'm 30 years old.",
-  about_description: `I have been working in web development since 2012, consistently using key tools in the field
-    such as JavaScript, HTML, CSS, PHP, and WordPress, along with responsive development
-    practices. Since 2019, I have been building expertise with cutting-edge technologies,
-    including Vue.js (Nuxt), React (Next.js and React Native), REST API integration, and
-    endpoint testing using Postman or Insomnia. I have actively participated in project planning
-    ceremonies using Scrum and Kanban methodologies. I am seeking an opportunity to
-    contribute as a front-end developer, confident that my experience and skills can add
-    significant value to the company’s development team.
+  about_description: `<p>A brazilian Front End Engineer based in Sao Paulo, Brazil.</p>
+    <p>Focused on web development and passionate about creating digital products with attention to visual aspects, fast perform and user experience.</p>
+    <p>Currently working mostly with Vue.js, React(and React Native), Next, TypeScript. Despite i'm focused on frontend, occasionally i take time to practice some backend with Express, build something fun with JavaScript or another thing that I feel like doing it.</p>
   `,
   institute: "Institute",
   period: "Period",
