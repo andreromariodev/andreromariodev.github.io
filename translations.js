@@ -1,6 +1,8 @@
 export const enUS = {
   title: "Front-end Developer",
-  about: "About",
+  page_title: "André Romário - Portfolio",
+  send_me_mail: "Text me an mail",
+  send_me_whatsapp: "Send-me a text message on WhatsApp",
   english_level: 'English Level - B1',
   academic: "Academic",
   stacks: "Some Stacks",
@@ -57,7 +59,9 @@ export const enUS = {
 
 export const ptBR = {
   title: "Desenvolvedor Front-end",
-  about: "Sobre",
+  page_title: "André Romário - Portfólio",
+  send_me_mail: "Me envie um e-mail",
+  send_me_whatsapp: "Me chame no WhatsApp",
   english_level: 'Nível de Inglês - B1',
   academic: "Formação Acadêmica",
   stacks: "Habilidades",

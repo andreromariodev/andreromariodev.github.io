@@ -113,51 +113,52 @@ const HomePage = () => {
       <section className="section" id="about">
         <Container>
           <div className="about__info">
-            <Picture>
-              <img
-                src="./img/andreromario.jpg"
-                alt="André Romário"
-                title="André Romário"
-              />
-            </Picture>
-
-            <div>
+            <div className="side_a">
+              <Picture>
+                <img
+                  src="./img/andreromario.jpg"
+                  alt="André Romário"
+                  title="André Romário"
+                />
+              </Picture>
+              
               <div className="social">
                 <a
                   href="https://github.com/andreromariodev"
                   target="_blank"
-                  title="Meu GitHub"
+                  title="GitHub"
                 >
                   <Github />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/andre-romario-dev/"
                   target="_blank"
-                  title="Meu LinkedIn"
+                  title="LinkedIn"
                 >
                   <Linkedin />
                 </a>
                 <a
                   href="mailto:andreromario@live.com"
                   target="_blank"
-                  title="Me envie um e-mail"
+                  title={t.send_me_mail}
                 >
                   <Email />
                 </a>
               </div>
-
               <p>
                 <a
                   href="mailto:andreromario@live.com"
-                  title="Me envie um e-mail"
+                  title={t.send_me_mail}
                 >
                   andreromario@live.com
                 </a>
               </p>
 
               <p>{t.english_level}</p>
+            </div>
 
-              <h2>{t.about}:</h2>
+            <div className="side_b">
+              <h1>{t.page_title}</h1>
               <p>{t.about_intro}</p>
               <p>{t.about_description}</p>
             </div>

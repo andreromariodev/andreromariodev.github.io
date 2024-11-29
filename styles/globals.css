@@ -1,11 +1,11 @@
 :root {
-  --background: #171010;
-  --primary: #b751d2;
-  --secondary: #6b3379;
-  --text: #efefef;
+  --background: #1a1717;
+  --primary: #43A047;
+  --secondary: #139718;
+  --text: #F5F5F5;
   --white: #fff;
   --smoke: #bdbdbd;
-  --smoke_dark: #1f1f1f;
+  --smoke_dark: #403c3c;
 }
 
 * {
@@ -124,6 +124,10 @@ h2 {
 }
 
 .social {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+
   a {
     margin-right: 10px;
 
@@ -153,6 +157,12 @@ h2 {
     align-items: center;
     text-align: center;
   }
+}
+
+.about__info .side_b {
+  padding: 20px;
+  border-radius: 15px;
+  background-color: var(--smoke_dark);
 }
 
 .showMobile {

@@ -29,7 +29,7 @@ const FooterComponent = (props) => {
         </Container>
       </Footer>
 
-      <LinkWhatsapp href="https://wa.me/5511985204317" target="_blank" title="Send-me a text message on WhatsApp">
+      <LinkWhatsapp href="https://wa.me/5511985204317" target="_blank" title={t.send_me_whatsapp}>
         <Whatsapp />
       </LinkWhatsapp>
     </>
