@@ -11,6 +11,7 @@ export const enUS = {
   my_cv: "Download my CV",
   contact: "Contact",
   development: "Made with",
+  about: "About",
   about_description: `<p>A brazilian Front End Engineer based in Sao Paulo, Brazil.</p>
     <p>Focused on web development and passionate about creating digital products with attention to visual aspects, fast perform and user experience.</p>
     <p>Currently working mostly with Vue.js, React(and React Native), Next, TypeScript. Despite i'm focused on frontend, occasionally i take time to practice some backend with Express, build something fun with JavaScript or another thing that I feel like doing it.</p>
@@ -64,6 +65,7 @@ export const ptBR = {
   contact: "Contato",
   my_cv: "Meu Currículo",
   development: "Deselvolvido com",
+  about: "Sobre",
   about_intro: "Meu nome é André Romário, moro na cidade de São Paulo, Brasil e tenho 30 anos de idade",
   about_description: `Graduado em Sistemas para Internet, atuo como desenvolvedor desde 2011, construindo uma carreira sólida em desenvolvimento web e mobile. Minha expertise abrange tecnologias de front-end, como JavaScript, React, React Native, Vue, além de ferramentas de back-end, como PHP, Node.js e SQL. Também possuo fortes habilidades em HTML, CSS, SEO e metodologias de UX, permitindo-me criar experiências digitais centradas no usuário e de alto desempenho.
     Sou apaixonado por inovação e comprometido com as melhores práticas do mercado. Seja desenvolvendo interfaces responsivas, integrando APIs ou otimizando plataformas para performance e acessibilidade, meu objetivo é entregar soluções escaláveis e de impacto em cada projeto no qual contribuo.

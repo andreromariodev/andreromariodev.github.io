@@ -12,7 +12,7 @@ export const Project = styled.div`
 `;
 
 export const Title = styled.div`
-  background-color: var(--secondary);
+  background-color: var(--thirtiary);
   padding: 5px;
   text-align: center;
 `;

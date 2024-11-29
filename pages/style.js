@@ -1,17 +1,12 @@
 import styled from "styled-components";
 
 export const Picture = styled.figure`
-  border: 5px solid var(--primary);
-  background-color: var(--primary);
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
   overflow: hidden;
   margin: auto;
+  display: inline-flex;
   
   img {
-    width: 200px;
-    height: 200px;
+    border-radius: 50%;
     margin: auto;
   }
 `;
@@ -21,7 +16,7 @@ export const Academic = styled.div`
   gap: 30px;
 `;
 
-export const Stacks = styled.div`
+export const Stacks = styled.ul`
   display: flex;
   flex-wrap: wrap;
 

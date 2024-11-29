@@ -3,7 +3,7 @@ import styled, { keyframes } from "styled-components";
 export const Footer = styled.footer`
   margin-top: 60px;
   padding: 20px 0;
-  background-color: var(--secondary);
+  background-color: var(--thirtiary);
 
   p {
     display: flex;

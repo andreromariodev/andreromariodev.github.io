@@ -4,7 +4,7 @@ export const Header = styled.header`
   top: 0;
   position: sticky;
   z-index: 100;
-  background-color: var(--primary);
+  background-color: var(--thirtiary);
 
   @media (max-width: 1024px) {
     padding: 15px 0;
@@ -43,7 +43,7 @@ export const LangSwitcher = styled.div`
   }
 `;
 
-export const Menu = styled.nav`
+export const Menu = styled.ul`
   display: flex;
   /* justify-content: center; */
 
@@ -72,7 +72,7 @@ export const MenuItem = styled.li`
     }
 
     display: inline-flex;
-    padding: 15px 10px;
+    padding: 15px;
   }
 `;
 

@@ -12,7 +12,7 @@ const index = (props) => {
       <Project>
         <Title>{title}</Title>
         <figure>
-          <img loading="lazy" src={src} />
+          <img loading="lazy" alt={`Foto do ${title}`} src={src} />
         </figure>
       </Project>
     </Link>

@@ -78,42 +78,48 @@ const HeaderComponent = (props) => {
         </MobileToggle>
 
         <Desktop>
-          <Menu className={mobileMenu ? "-active" : ""}>
-            <MenuItem>
-              <a onClick={() => setMobileMenu(!mobileMenu)} href="#about">
-                {t.about}
-              </a>
-            </MenuItem>
-            <MenuItem>
-              <a
-                onClick={() => setMobileMenu(!mobileMenu)}
-                href="#professional-experience"
-              >
-                {t.professional_experience}
-              </a>
-            </MenuItem>
-            <MenuItem>
-              <a onClick={() => setMobileMenu(!mobileMenu)} href="#academic">
-                {t.academic}
-              </a>
-            </MenuItem>
-            <MenuItem>
-              <a onClick={() => setMobileMenu(!mobileMenu)} href="#mainstacks">
-                {t.stacks}
-              </a>
-            </MenuItem>
-            <MenuItem>
-              <a onClick={() => setMobileMenu(!mobileMenu)} href="#portfolio">
-                {t.portfolio}
-              </a>
-            </MenuItem>
-            <MenuItem>
-              <a href="/cv-andreromariodev.pdf" target="_blank" download>{t.my_cv}</a>
-            </MenuItem>
-            <MenuItem>
-              <a href="mailto:andreromario@live.com">{t.contact}</a>
-            </MenuItem>
-          </Menu>
+          <nav>
+            <Menu className={mobileMenu ? "-active" : ""}>
+              <MenuItem>
+                <a aria-label={t.about} title={t.about} onClick={() => setMobileMenu(!mobileMenu)} href="#about">
+                  {t.about}
+                </a>
+              </MenuItem>
+              <MenuItem>
+                <a
+                  aria-label={t.professional_experience} title={t.professional_experience}
+                  onClick={() => setMobileMenu(!mobileMenu)}
+                  href="#professional-experience"
+                >
+                  {t.professional_experience}
+                </a>
+              </MenuItem>
+              <MenuItem>
+                <a aria-label={t.academic} title={t.academic}
+                  onClick={() => setMobileMenu(!mobileMenu)} href="#academic">
+                  {t.academic}
+                </a>
+              </MenuItem>
+              <MenuItem>
+                <a aria-label={t.stacks} title={t.stacks}
+                  onClick={() => setMobileMenu(!mobileMenu)} href="#mainstacks">
+                  {t.stacks}
+                </a>
+              </MenuItem>
+              <MenuItem>
+                <a aria-label={t.portfolio} title={t.portfolio}
+                  onClick={() => setMobileMenu(!mobileMenu)} href="#portfolio">
+                  {t.portfolio}
+                </a>
+              </MenuItem>
+              <MenuItem>
+                <a aria-label={t.my_cv} title={t.my_cv} href="/cv-andreromariodev.pdf" target="_blank" download>{t.my_cv}</a>
+              </MenuItem>
+              <MenuItem>
+                <a aria-label={t.contact} title={t.contact} href="mailto:andreromario@live.com">{t.contact}</a>
+              </MenuItem>
+            </Menu>
+          </nav>
 
           {/* <LangSwitcher className="hideMobile">
             {locale === "en" ? (
