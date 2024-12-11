@@ -183,7 +183,7 @@ const HomePage = () => {
               <p>
                 {t.office}: <strong>{t.job1_office}</strong> <br />
                 {t.main_responsibilities}: {t.job1_description} <br />
-                {t.period}: 2019-{t.at_the_moment}
+                {t.period}: 2019-2024
               </p>
             </Experience>
             <Experience>
