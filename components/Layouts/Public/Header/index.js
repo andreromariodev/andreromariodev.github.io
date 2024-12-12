@@ -24,7 +24,7 @@ const HeaderComponent = (props) => {
   // const router = useRouter();
   // const { locale } = router;
   // const t = locale === "pt" ? ptBR : enUS;
-  const t = enUS;
+  const t = ptBR;
 
   const [mobileMenu, setMobileMenu] = useState(false);
 

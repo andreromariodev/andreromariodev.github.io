@@ -54,7 +54,7 @@ export const enUS = {
 
 export const ptBR = {
   title: "Desenvolvedor Front-end",
-  page_title: "André Romário - Portfólio",
+  page_title: "André Romário",
   send_me_mail: "Me envie um e-mail",
   send_me_whatsapp: "Me chame no WhatsApp",
   english_level: 'Nível de Inglês - B1',
@@ -66,9 +66,13 @@ export const ptBR = {
   my_cv: "Meu Currículo",
   development: "Deselvolvido com",
   about: "Sobre",
-  about_intro: "Meu nome é André Romário, moro na cidade de São Paulo, Brasil e tenho 30 anos de idade",
-  about_description: `Graduado em Sistemas para Internet, atuo como desenvolvedor desde 2011, construindo uma carreira sólida em desenvolvimento web e mobile. Minha expertise abrange tecnologias de front-end, como JavaScript, React, React Native, Vue, além de ferramentas de back-end, como PHP, Node.js e SQL. Também possuo fortes habilidades em HTML, CSS, SEO e metodologias de UX, permitindo-me criar experiências digitais centradas no usuário e de alto desempenho.
-    Sou apaixonado por inovação e comprometido com as melhores práticas do mercado. Seja desenvolvendo interfaces responsivas, integrando APIs ou otimizando plataformas para performance e acessibilidade, meu objetivo é entregar soluções escaláveis e de impacto em cada projeto no qual contribuo.
+  about_intro: "",
+  about_description: `<p>Meu nome é André Romário, atualmente moro na cidade de São Paulo, sou graduado em Sistemas para Internet, e atuo como desenvolvedor desde 2012, construindo uma carreira sólida em desenvolvimento web e mobile. 
+    Minha expertise abrange tecnologias de front-end, como <strong>JavaScript</strong>, <strong>React</strong>, <strong>Vue</strong>, e ambiente <strong>Node.js</strong>. 
+    Possuo maestria em habilidades utilizando o HTML e CSS.</p> 
+    <p>Gosto de desenvolver sempre pensando em performance e qualidade do SEO das páginas além de sempre tentar aplicar as melhores metodologias de UX, assim criando experiências digitais centradas no usuário e de alto desempenho.
+    Sou apaixonado por inovação e comprometido com as melhores práticas do mercado através do desenvolvendo de interfaces responsivas.</p>
+    <p>Meu objetivo é entregar soluções escaláveis e de alto impacto para o cliente em cada projeto no qual contribuo.</p>
   `,
   institute: "Instituição",
   period: "Período",
@@ -80,36 +84,44 @@ export const ptBR = {
   office: "Cargo",
   main_responsibilities: "Principais responsabilidades",
   job1_office: "Desenvolvedor Front-end",
-  job1_description: `Desenvolvimento de projetos com WordPress, incluindo integração com a API e implementação de interfaces utilizando HTML5, Sass e JavaScript com automação via Gulp.
-    Participação em projetos com Vue.js e Cordova para aplicações híbridas.
-    Desenvolvimento com Nuxt.js, aplicando melhores práticas para SSR (Server-Side Rendering).
-    Criação de aplicações web modernas e responsivas com React e aplicações mobile cross-platform com React Native.
-    Desenvolvimento de aplicativos nativos para iOS e Android utilizando React Native, abrangendo todo o ciclo de vida do projeto.
-    Manutenção e suporte de plataformas SaaS, garantindo escalabilidade e estabilidade.
-    Criação e personalização de páginas de e-commerce VTEX, com integração ao backend e foco na experiência do usuário.
-    Desenvolvimento frontend para e-commerce com tecnologias como Python, Alpine.js, Nuxt.js, React e React Native.
-    Experiência em integrações com APIs REST e GraphQL, com análise e validação de endpoints no Postman.
-    Participação no desenvolvimento e acompanhamento de testes unitários e fluxos end-to-end, além de configuração e otimização de pipelines de CI/CD.
-    Versionamento de código com o git.
-    Atuação em times ágeis, com forte participação nos rituais do Scrum para alinhamento e melhoria contínua.
+  job1_description: `<ul>
+      <li>Trabalhei no desenvolvimento de projetos de plataformas SAP utilizando tecnologias reativas como o <strong>Vue.js</strong>, <strong>React</strong> e <strong>React Native</strong> aplicando também os conceitos de <strong>SSR</strong> com <strong>Nuxt.js</strong> e <strong>Next.js</strong>.</li>
+      <li>Fiz a arquitetura atomica de diversos componentes para reutilização nos projetos utilizando tecnologias como <strong>Styled Components</strong> e <strong>Tailwind</strong> para agilizar no desenvolvimento de estilos no <strong>front-end</strong> e <strong>TypeScript</strong> para melhor controle de qualidade do código.</strong> </li>
+      <li>Desenvolvi temas customizados e de alta performance e otimizados de acordo com a necessidade do cliente para a plataforma <strong>WordPress</strong> utilizando algumas ferramentas de automação de código como o <strong>Gulp.js</strong>.</li>
+      <li>Atuei na criação de aplicações mobile cross-platform com <strong>React Native</strong>.</li>
+      <li>Criei páginas para e-commerce <strong>VTEX</strong>, com foco total na experiência do usuário.</li>
+      <li>Atuei no desenvolvimento de uma plataforma e-commerce utilizando tecnologias como <strong>Python</strong>, <strong>Alpine.js</strong> e <strong>Nuxt.js</strong>.</li>
+      <li>Atuei com integrações de API's <strong>REST</strong> e <strong>GraphQL</strong>, com análise e validação de endpoints através do <strong>Postman</strong> e <strong>Insomnia</strong>.</li>
+      <li>Acompanhei o desenvolvimento de alguns <strong>testes unitários</strong> e fluxos end-to-end, além de configuração e otimização de pipelines <strong>CI/CD</strong>.</li>
+      <li>Tive também a oportunidade de atuar com times ágeis participando ativamente dos rituais do <strong>Scrum</strong> para alinhamento e melhoria contínua dos produtos.</li>
+      <li>Para versionamento de código dos projetos utilizei bastante os recursos do <strong>git</strong>, <strong>git flow</strong> e aprovação do código via <strong>pull requests</strong> em plataforma privada da corporação.</li>
+    </ul>
   `,
   job2_office: "Desenvolvedor Full-stack",
-  job2_description: `Especializado no desenvolvimento de temas personalizados para WordPress, entregando soluções sob medida que atendiam aos requisitos dos clientes e melhoravam a experiência do usuário.
-    Trabalhei extensivamente com a API do WordPress, criando integrações fluidas e ampliando funcionalidades da plataforma através da implementação de PHP e CodeIgniter para soluções backend.
-    Projetei e desenvolvi aplicações web dinâmicas e responsivas, garantindo compatibilidade entre plataformas e alto desempenho.
-    Colaborei de forma próxima com equipes multidisciplinares para traduzir necessidades de negócios em requisitos técnicos, construindo soluções escaláveis do conceito à implementação.
-    Enfatizei as melhores práticas em código limpo, arquitetura modular e otimização para melhoria de velocidade e funcionalidade dos sites.
+  job2_description: `
+    <ul>
+      <li>Desenvolvi temas customizados e de alta performance e otimizados de acordo com a necessidade do cliente para a plataforma <strong>WordPress</strong>.</li>
+      <li>Projetei e desenvolvi aplicações web dinâmicas e responsivas, utilizando tecnologias como <strong>PHP</strong>, <strong>CodeIgniter</strong>, <strong>Gulp.js</strong> e <strong>Grunt.js</strong></li>
+      <li>Atuei com integrações de API's <strong>REST</strong>, com análise e validação de endpoints através do <strong>Postman</strong>.</li>
+      <li>Tive também a oportunidade de atuar com times ágeis participando ativamente dos rituais do <strong>Scrum</strong> para alinhamento e melhoria contínua dos produtos.</li>
+    </ul>
   `,
   job3_office: "Programador",
-  job3_description: `Realizei o desenvolvimento e a manutenção de websites e lojas virtuais utilizando as plataformas Magento e Joomla, garantindo a funcionalidade e usabilidade.
-    Durante esse período, dominei práticas de design responsivo, assegurando que os sites oferecessem experiências consistentes em dispositivos móveis e desktops.
-    Utilizei tecnologias como HTML5, CSS3, JavaScript e plugins de jQuery, implementando interfaces interativas e modernas para atender às necessidades dos clientes.
-    Trabalhei em soluções otimizadas para desempenho, focando na compatibilidade entre navegadores e na entrega de projetos visuais atraentes e eficientes.
+  job3_description: `
+    <ul>
+      <li>Realizei o desenvolvimento e a manutenção e suporte de websites e lojas virtuais utilizando as plataformas Magento e Joomla</li>
+      <li>Atuei em projetos que pude dominar as práticas de design responsivo, assegurando que os sites oferecessem experiências consistentes em dispositivos móveis e desktops.</li>
+      <li>Utilizei tecnologias como HTML5, CSS3, JavaScript e plugins de jQuery, implementando interfaces interativas e modernas para atender às necessidades dos clientes.</li>
+      <li>Trabalhei em soluções otimizadas para desempenho, focando na compatibilidade entre navegadores e na entrega de projetos visuais atraentes e eficientes.</li>
+    </ul>
   `,
   job4_office: "Estágio e cargo de Auxiliar de Programação",
-  job4_description: `Participei do desenvolvimento de websites, blogs e sistemas utilizando tecnologias PHP e o CMS WordPress, adquirindo experiência prática e aprimorando habilidades em desenvolvimento web.
-    Auxiliei na configuração de temas e plugins, bem como na integração de funcionalidades personalizadas para atender às demandas dos projetos.
-    Atuei no desenvolvimento de websites, blogs e sistemas utilizando tecnologias PHP, CMS WordPress e Bootstrap, colaborando na criação de soluções eficientes e funcionais.
-    Contribuí para a implementação de layouts responsivos e compatíveis com diferentes dispositivos, além de realizar ajustes e melhorias em projetos existentes.
+  job4_description: `
+    <ul>
+      <li>Participei do desenvolvimento de websites, blogs e sistemas utilizando tecnologias PHP e o CMS WordPress, adquirindo experiência prática e aprimorando habilidades em desenvolvimento web.</li>
+      <li>Auxiliei na configuração de temas e plugins, bem como na integração de funcionalidades personalizadas para atender às demandas dos projetos.</li>
+      <li>Atuei no desenvolvimento de websites, blogs e sistemas utilizando tecnologias PHP, CMS WordPress e Bootstrap, colaborando na criação de soluções eficientes e funcionais.</li>
+      <li>Contribuí para a implementação de layouts responsivos e compatíveis com diferentes dispositivos, além de realizar ajustes e melhorias em projetos existentes.</li>
+    </ul>  
   `,
 };

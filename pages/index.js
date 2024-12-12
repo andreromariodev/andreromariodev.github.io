@@ -37,7 +37,7 @@ const HomePage = () => {
   // const router = useRouter();
   // const { locale } = router;
   // const t = locale === "pt" ? ptBR : enUS;
-  const t = enUS;
+  const t = ptBR;
 
   const [projects, setProjects] = useState([
     {
@@ -121,7 +121,7 @@ const HomePage = () => {
             <div className="side_a">
               <Picture>
                 <img
-                  src="./img/andreromario.jpg"
+                  src="./img/fefde456-8a01-48da-9de5-a8138c6502eb.jpeg"
                   alt="André Romário"
                   title="André Romário"
                 />
@@ -159,11 +159,11 @@ const HomePage = () => {
                 </a>
               </p>
 
-              <p>{t.english_level}</p>
+              {/* <p>{t.english_level}</p> */}
             </div>
 
             <div className="side_b">
-              <h1>{t.page_title}</h1>
+              <h1>{t.title}</h1>
               <p>{t.about_intro}</p>
               <div dangerouslySetInnerHTML={{ __html: t.about_description }}></div>
             </div>
@@ -176,47 +176,33 @@ const HomePage = () => {
           <h2>{t.professional_experience}:</h2>
 
           <ProfessionalExperiences>
-            <Experience>
+            <Experience className="job_description latest">
               <h3>
                 {t.company}: Visie <br />
               </h3>
-              <p>
-                {t.office}: <strong>{t.job1_office}</strong> <br />
-                {t.main_responsibilities}: {t.job1_description} <br />
-                {t.period}: 2019-2024
-              </p>
+              <p>{t.office}: <strong>{t.job1_office}</strong> | {t.period}: 2019 - 2025</p>
+              <div dangerouslySetInnerHTML={{ __html: t.job1_description }}></div>
             </Experience>
-            <Experience>
+            <Experience className="job_description">
               <h3>
                 {t.company}: Inside Mídia - Agência de Marketing Digital <br />
               </h3>
-              <p>
-                {t.office}: <strong>{t.job2_office}</strong> <br />
-                {t.main_responsibilities}: {t.job2_description} <br />
-                {t.period}: 2017-2019
-              </p>
+              <p>{t.office}: <strong>{t.job2_office}</strong> | {t.period}: 2017 - 2019</p>
+              <div dangerouslySetInnerHTML={{ __html: t.job2_description }}></div>
             </Experience>
-            <Experience>
+            <Experience className="job_description">
               <h3>
                 {t.company}: Soulmkt Desenvolvimento de Sistemas <br />
               </h3>
-              <p>
-                {t.office}: <strong>{t.job3_office}</strong> <br />
-                {t.main_responsibilities}: {t.job3_description} <br />
-                {t.period}: 2014-2016
-              </p>
+              <p>{t.office}: <strong>{t.job3_office}</strong> | {t.period}: 2014 - 2016</p>
+              <div dangerouslySetInnerHTML={{ __html: t.job3_description }}></div>
             </Experience>
-            <Experience>
+            <Experience className="job_description">
               <h3>
                 {t.company}: Convertty Soluções Digitais <br />
               </h3>
-
-              <p>
-                {t.office}: <strong>{t.job4_office}</strong> <br />
-                {t.main_responsibilities}: {t.job4_description} <br />
-                {t.period}: 2012-2013
-              </p>
-              <p></p>
+              <p>{t.office}: <strong>{t.job4_office}</strong> | {t.period}: 2012 - 2013</p>
+              <div dangerouslySetInnerHTML={{ __html: t.job4_description }}></div>
             </Experience>
           </ProfessionalExperiences>
         </Container>
@@ -256,22 +242,6 @@ const HomePage = () => {
         <Container>
           <h2>{t.stacks}:</h2>
           <Stacks>
-            <li title="JavaScript">
-              <Javascript />
-              JavaScript
-            </li>
-            <li title="HTML">
-              <Html />
-              HTML
-            </li>
-            <li title="CSS">
-              <Css />
-              CSS
-            </li>
-            <li title="NodeJS">
-              <Nodejs />
-              NodeJS
-            </li>
             <li title="React">
               <Reacticon />
               React
@@ -284,9 +254,21 @@ const HomePage = () => {
               <Vuejs />
               Vue
             </li>
-            <li title="PHP">
-              <Php />
-              PHP
+            <li title="JavaScript">
+              <Javascript />
+              JavaScript
+            </li>
+            <li title="HTML5">
+              <Html />
+              HTML5
+            </li>
+            <li title="CSS3">
+              <Css />
+              CSS3
+            </li>
+            <li title="NodeJS">
+              <Nodejs />
+              NodeJS
             </li>
             <li title="SQL">
               <Sql />

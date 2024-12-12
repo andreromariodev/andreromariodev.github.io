@@ -15,7 +15,7 @@ const FooterComponent = (props) => {
   // const router = useRouter();
   // const { locale } = router;
   // const t = locale === "pt" ? ptBR : enUS;
-  const t = enUS;
+  const t = ptBR;
 
   let year = new Date().getFullYear();
 
