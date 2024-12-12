@@ -71,7 +71,7 @@ export const ptBR = {
     Minha expertise abrange tecnologias de front-end, como <strong>JavaScript</strong>, <strong>React</strong>, <strong>Vue</strong>, e ambiente <strong>Node.js</strong>. 
     Possuo maestria em habilidades utilizando o HTML e CSS.</p> 
     <p>Gosto de desenvolver sempre pensando em performance e qualidade do SEO das páginas além de sempre tentar aplicar as melhores metodologias de UX, assim criando experiências digitais centradas no usuário e de alto desempenho.
-    Sou apaixonado por inovação e comprometido com as melhores práticas do mercado através do desenvolvendo de interfaces responsivas.</p>
+    Sou apaixonado por inovação e comprometido com as melhores práticas do mercado através do desenvolvimento de interfaces responsivas.</p>
     <p>Meu objetivo é entregar soluções escaláveis e de alto impacto para o cliente em cada projeto no qual contribuo.</p>
   `,
   institute: "Instituição",
@@ -86,7 +86,7 @@ export const ptBR = {
   job1_office: "Desenvolvedor Front-end",
   job1_description: `<ul>
       <li>Trabalhei no desenvolvimento de projetos de plataformas SAP utilizando tecnologias reativas como o <strong>Vue.js</strong>, <strong>React</strong> e <strong>React Native</strong> aplicando também os conceitos de <strong>SSR</strong> com <strong>Nuxt.js</strong> e <strong>Next.js</strong>.</li>
-      <li>Fiz a arquitetura atomica de diversos componentes para reutilização nos projetos utilizando tecnologias como <strong>Styled Components</strong> e <strong>Tailwind</strong> para agilizar no desenvolvimento de estilos no <strong>front-end</strong> e <strong>TypeScript</strong> para melhor controle de qualidade do código.</strong> </li>
+      <li>Fiz a arquitetura atômica de diversos componentes para reutilização nos projetos utilizando tecnologias como <strong>Styled Components</strong> e <strong>Tailwind</strong> para agilizar no desenvolvimento de estilos no <strong>front-end</strong> e <strong>TypeScript</strong> para melhor controle de qualidade do código.</strong> </li>
       <li>Desenvolvi temas customizados e de alta performance e otimizados de acordo com a necessidade do cliente para a plataforma <strong>WordPress</strong> utilizando algumas ferramentas de automação de código como o <strong>Gulp.js</strong>.</li>
       <li>Atuei na criação de aplicações mobile cross-platform com <strong>React Native</strong>.</li>
       <li>Criei páginas para e-commerce <strong>VTEX</strong>, com foco total na experiência do usuário.</li>
