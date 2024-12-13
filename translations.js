@@ -75,7 +75,8 @@ export const ptBR = {
     <p>Meu objetivo é entregar soluções escaláveis e de alto impacto para o cliente em cada projeto no qual contribuo.</p>
   `,
   institute: "Instituição",
-  period: "Conclusão",
+  period: "Período",
+  conclusion: "Conclusão",
   certificate1: "Pós-graduação Aplicativos Móveis",
   certificate2: "Graduação em Sistemas para Internet",
   certificate3: "Curso Técnico em Informática para Internet",

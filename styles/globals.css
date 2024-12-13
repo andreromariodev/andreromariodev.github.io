@@ -8,6 +8,18 @@
   --smoke: #bdbdbd;
   --smoke_dark: #403c3c;
   --gray: gray;
+  --black: #000;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar {
+  width: 15px;
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--thirtiary);
 }
 
 * {

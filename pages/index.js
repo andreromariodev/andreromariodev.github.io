@@ -44,57 +44,104 @@ const HomePage = () => {
       url: "http://bit.ly/3BoFLaV",
       title: "Imperial Cleaning(Seattle - WA)",
       src: "./img/imperial-cleaning-seattle.png",
+      description: `
+        <p>
+          Projeto desenvolvido ao longo do ano de 2023 para a Imperial Cleaning. Basicamente consiste em um site para agendamento de serviços de limpeza essa empresa localizada em Seattle Washington.
+        </p>
+        <p>
+          Pude atuar com o desenvolvimento e implementação do layout desenhado no Figma e deploy da aplicação no servidor do cliente.
+        </p>
+      `
     },
     {
       url: "https://bit.ly/3cE0Gam",
       title: "Buffet Badallus Club",
       src: "./img/buffetbadallusclub.png",
+      description: `
+        <p>
+          Portal para o cliente Buffet Badallus desenvolvido em 2021 através de parceria com a agência Mangu.
+        </p>
+        <p>
+          Pude atuar com o desenvolvimento e implementação do layout desenhado no Figma e deploy da aplicação no servidor do cliente.
+        </p>
+      `
     },
     {
       url: "https://bit.ly/2U35oZ1",
       title: "DGR Comunicação Visual",
       src: "./img/dgrcomunicacaovisual.png",
+      description: `
+        <p>
+          Site institucional e criativo feito em 2020 para o cliente DGR através de parceria com a agência Mangu.
+        </p>
+        <p>
+          Pude atuar com o desenvolvimento e implementação do layout desenhado no Figma e deploy da aplicação no servidor do cliente.
+        </p>
+      `
     },
     {
       url: "https://bit.ly/3cDyt3H",
       title: "Neves Bomfim",
       src: "./img/nevesbomfim.png",
+      description: `
+        <p>
+          Portal desenvolvido em 2019 para o cliente Neves Bomfim trabalhando para Visie, um projeto que consiste em um portal para apresentação de imóveis para aluguel e venda.
+        </p>
+        <p>
+          Pude atuar com o desenvolvimento e implementação do layout desenhado no Photoshop e utilizei tecologias como Vue.js e Gulp.js no decorrer do desenvolvimento
+        </p>
+      `
     },
-    {
-      url: "https://bit.ly/3gg0xvY",
-      title: "Primepass",
-      src: "./img/primepass.png",
-    },
+    // {
+    //   url: "https://bit.ly/3gg0xvY",
+    //   title: "Primepass",
+    //   src: "./img/primepass.png",
+    // },
     {
       url: "https://valoramadeira.com/",
       title: "Valora Madeira",
-      src: "https://valoramadeira.com/wp-content/uploads/2021/08/fundo.jpg",
+      src: "./img/valoramadeira.png",
+      description: `
+        <p>
+          Projeto desenvolvido para uma empresa de engenharia ambiental que tem o foco de apresentar qualidades e melhorias para o ramo de madeira e árvores.
+          Nesse projeto eu atuei desenvolvendo o layout para a plataforma WordPress, realizei o deploy da aplicação no servidor do cliente assim como também estive à disposição para atendimento pós entrega para fins de prestar todo o suporte necessário ao cliente.
+        </p>
+      `
     },
-    {
-      url: "https://bit.ly/3xd5aNd",
-      title: "STI Máquinas",
-      src: "./img/stimaquinas.png",
-    },
-    {
-      url: "https://bit.ly/35cSLwz",
-      title: "Nova Ceasa ABC",
-      src: "./img/novaceasaabc.png",
-    },
-    {
-      url: "https://bit.ly/3zmMkoy",
-      title: "TecPat",
-      src: "./img/tecpat.png",
-    },
+    // {
+    //   url: "https://bit.ly/3xd5aNd",
+    //   title: "STI Máquinas",
+    //   src: "./img/stimaquinas.png",
+    // },
+    // {
+    //   url: "https://bit.ly/35cSLwz",
+    //   title: "Nova Ceasa ABC",
+    //   src: "./img/novaceasaabc.png",
+    // },
+    // {
+    //   url: "https://bit.ly/3zmMkoy",
+    //   title: "TecPat",
+    //   src: "./img/tecpat.png",
+    // },
     {
       url: "https://bit.ly/3zuIiLd",
       title: "Vero Internet",
       src: "./img/verointernet.png",
+      description: `
+        <p>
+          Um dos primeiros projetos que atuei assim que passei a trabalhar com a Visie. O site da Vero foi um projeto que a previsão para desenvolvimento desse portal era de aproximadamente 1 mês, porém por questões internas foi preciso ser feito em um período menor, em tempo recorde de 4 dias através de um WarRoom com 6 desenvolvedores e o gestor do projeto nos coordenando.
+          Apesar do prazo apertado conseguimos realizar a entrega do produto com muita maestria e qualidade na entrega.
+        </p>
+        <p>
+          Pude atuar com o desenvolvimento e implementação do layout desenhado no Illustrator pelo responsável pelo design.
+        </p>
+      `
     },
-    {
-      url: "https://bit.ly/3wq7EIc",
-      title: "Heat Tech",
-      src: "./img/heattech.png",
-    },
+    // {
+    //   url: "https://bit.ly/3wq7EIc",
+    //   title: "Heat Tech",
+    //   src: "./img/heattech.png",
+    // },
   ]);
   // const [projects, setProjects] = useState([]);
 
@@ -180,28 +227,28 @@ const HomePage = () => {
               <h3>
                 {t.company}: Visie <br />
               </h3>
-              <p>{t.office}: <strong>{t.job1_office}</strong> | {t.period}: 2019 - 2025</p>
+              <p>{t.office}: <strong>{t.job1_office}</strong> | {t.period}: 2019 - 2025 (5 anos e 6 meses)</p>
               <div dangerouslySetInnerHTML={{ __html: t.job1_description }}></div>
             </Experience>
             <Experience className="job_description">
               <h3>
                 {t.company}: Inside Mídia - Agência de Marketing Digital <br />
               </h3>
-              <p>{t.office}: <strong>{t.job2_office}</strong> | {t.period}: 2017 - 2019</p>
+              <p>{t.office}: <strong>{t.job2_office}</strong> | {t.period}: 2017 - 2019 (2 anos e 2 meses)</p>
               <div dangerouslySetInnerHTML={{ __html: t.job2_description }}></div>
             </Experience>
             <Experience className="job_description">
               <h3>
                 {t.company}: Soulmkt Desenvolvimento de Sistemas <br />
               </h3>
-              <p>{t.office}: <strong>{t.job3_office}</strong> | {t.period}: 2014 - 2016</p>
+              <p>{t.office}: <strong>{t.job3_office}</strong> | {t.period}: 2014 - 2016 (1 ano e 7 meses)</p>
               <div dangerouslySetInnerHTML={{ __html: t.job3_description }}></div>
             </Experience>
             <Experience className="job_description">
               <h3>
                 {t.company}: Convertty Soluções Digitais <br />
               </h3>
-              <p>{t.office}: <strong>{t.job4_office}</strong> | {t.period}: 2012 - 2013</p>
+              <p>{t.office}: <strong>{t.job4_office}</strong> | {t.period}: 2012 - 2013 (1 ano e 4 meses)</p>
               <div dangerouslySetInnerHTML={{ __html: t.job4_description }}></div>
             </Experience>
           </ProfessionalExperiences>
@@ -217,21 +264,21 @@ const HomePage = () => {
               <h3>{t.certificate1}</h3>
               <p>
                 {t.institute}: Faculdade Descomplica <br />
-                {t.period}: 2021
+                {t.conclusion}: 2021
               </p>
             </Experience>
             <Experience>
               <h3>{t.certificate2}</h3>
               <p>
                 {t.institute}: Centro Universitário ENIAC <br />
-                {t.period}: 2016
+                {t.conclusion}: 2016
               </p>
             </Experience>
             <Experience>
               <h3>{t.certificate3}</h3>
               <p>
                 {t.institute}: ETEC Tiquatira <br />
-                {t.period}: 2012
+                {t.conclusion}: 2012
               </p>
             </Experience>
           </Academic>

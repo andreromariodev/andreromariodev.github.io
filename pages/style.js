@@ -46,18 +46,10 @@ export const SocialLink = styled.a`
 export const ProfessionalExperiences = styled.div`
   display: grid;
   gap: 30px;
-
-  .job_description {
-    &.latest {
-    font-size: 16px;
-    }
-    font-size: 15px;
-  }
 `;
 
 export const Projects = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, auto));
   justify-content: space-between;
   column-gap: 30px;
   row-gap: 30px;
