@@ -46,6 +46,13 @@ export const SocialLink = styled.a`
 export const ProfessionalExperiences = styled.div`
   display: grid;
   gap: 30px;
+
+  .job_description {
+    &.latest {
+    font-size: 16px;
+    }
+    font-size: 15px;
+  }
 `;
 
 export const Projects = styled.div`

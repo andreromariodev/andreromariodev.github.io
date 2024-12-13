@@ -71,8 +71,13 @@ export const MenuItem = styled.li`
       padding: 15px 0;
     }
 
+    &:hover {
+      opacity: .7;
+    }
+
     display: inline-flex;
     padding: 15px;
+    transition: opacity .3s;
   }
 `;
 

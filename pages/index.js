@@ -217,21 +217,21 @@ const HomePage = () => {
               <h3>{t.certificate1}</h3>
               <p>
                 {t.institute}: Faculdade Descomplica <br />
-                {t.period}: 2021 – 2022
+                {t.period}: 2021
               </p>
             </Experience>
             <Experience>
               <h3>{t.certificate2}</h3>
               <p>
                 {t.institute}: Centro Universitário ENIAC <br />
-                {t.period}: 2014 – 2016
+                {t.period}: 2016
               </p>
             </Experience>
             <Experience>
               <h3>{t.certificate3}</h3>
               <p>
                 {t.institute}: ETEC Tiquatira <br />
-                {t.period}: 2011 – 2012
+                {t.period}: 2012
               </p>
             </Experience>
           </Academic>
