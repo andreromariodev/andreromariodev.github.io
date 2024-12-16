@@ -41,6 +41,54 @@ const HomePage = () => {
 
   const [projects, setProjects] = useState([
     {
+      url: "https://bit.ly/3BxIdfk",
+      title: "Alper Seguros",
+      src: "./img/alper-seguros.png",
+      description: `
+        <p>
+          Projeto desenvolvido ao longo do ano de 2023 e 2024 para a Alper Seguros. Basicamente consiste em um SAP para gerenciamento de cotações de seguros entre o cliente e a área de backoffice.
+        </p>
+        <p>
+          Esse projeto foi desenvolvido com o uso de <strong>React</strong>(<strong>Next.js</strong>) e <strong>Tailwind.CSS</strong>.
+        </p>
+        <p>
+          Pude atuar com o desenvolvimento e implementação do layout desenhado no Figma e todo um suporte ao cliente junto a equipe de desenvolvimento. Além da integração com os endpoints disponibilizados pela API da Alper para a gestão dos contratos.
+        </p>
+      `
+    },
+    {
+      url: "https://bit.ly/4gknZFg",
+      title: "Minha Vero - Aplicativo",
+      src: "./img/app-minha-vero.png",
+      description: `
+        <p>
+          Projeto desenvolvido ao longo do ano de 2022 para a Vero. É um aplicativo desenvolvido para suporte de clientes da Vero que usufruem do serviço de internet da operadora.
+        </p>
+        <p>
+          Esse projeto foi desenvolvido com o uso de <strong>React Native</strong> e <strong>Styled Components</strong>.
+        </p>
+        <p>
+          Pude atuar com o desenvolvimento e implementação do layout desenhado no Figma e todo um suporte ao cliente junto a equipe de desenvolvimento. Além da integração com os endpoints disponibilizados pela API do proxy interno da Vero.
+        </p>
+      `
+    },
+    {
+      url: "https://bit.ly/3ZXcYDK",
+      title: "Minha Vero - Versão Web",
+      src: "./img/minha-vero.png",
+      description: `
+        <p>
+          Projeto desenvolvido ao longo do ano de 2022 para a Vero. É uma SAP desenvolvida para suporte de clientes da Vero que usufruem do serviço de internet da operadora similar ao aplicativo para Smartphones e Tablets.
+        </p>
+        <p>
+          Esse projeto foi desenvolvido com o uso de <strong>Vue</strong>(<strong>Nuxt.js</strong>).
+        </p>
+        <p>
+          Pude atuar com o desenvolvimento e implementação do layout desenhado no Figma e todo um suporte ao cliente junto a equipe de desenvolvimento. Além da integração com os endpoints disponibilizados pela API do proxy interno da Vero.
+        </p>
+      `
+    },
+    {
       url: "http://bit.ly/3BoFLaV",
       title: "Imperial Cleaning(Seattle - WA)",
       src: "./img/imperial-cleaning-seattle.png",
