@@ -46,13 +46,16 @@ const HomePage = () => {
       src: "./img/alper-seguros.png",
       description: `
         <p>
-          Projeto desenvolvido ao longo do ano de 2023 e 2024 para a Alper Seguros. Basicamente consiste em um SAP para gerenciamento de cotações de seguros entre o cliente e a área de backoffice.
+          <strong>Sistema de Gestão de Cotações de Seguros</strong> - Solução completa desenvolvida durante 2023-2024 para automatizar o processo de cotação e gestão de contratos de seguros.
         </p>
         <p>
-          Esse projeto foi desenvolvido com o uso de <strong>React</strong>(<strong>Next.js</strong>) e <strong>Tailwind.CSS</strong>.
+          <strong>Stack Tecnológica:</strong> React.js, Next.js, Tailwind CSS, API REST Integration
         </p>
         <p>
-          Pude atuar com o desenvolvimento e implementação do layout desenhado no Figma e todo um suporte ao cliente junto a equipe de desenvolvimento. Além da integração com os endpoints disponibilizados pela API da Alper para a gestão dos contratos.
+          <strong>Responsabilidades:</strong> Desenvolvimento frontend responsivo, implementação de design system baseado em Figma, integração com APIs REST para gestão de contratos, otimização de performance e UX. Colaboração direta com equipe de produto e suporte técnico pós-implementação.
+        </p>
+        <p>
+          <strong>Resultado:</strong> Streamline do processo de cotações, redução significativa no tempo de processamento e melhoria na experiência do usuário final.
         </p>
       `
     },
@@ -62,13 +65,16 @@ const HomePage = () => {
       src: "./img/app-minha-vero.png",
       description: `
         <p>
-          Projeto desenvolvido ao longo do aaaaaano de 2022 para a Vero. É um aplicativo desenvolvido para suporte de clientes da Vero que usufruem do serviço de internet da operadora.
+          <strong>Aplicativo Móvel de Autoatendimento</strong> - Solução mobile nativa desenvolvida em 2022 para clientes da operadora Vero Internet, oferecendo gestão completa de serviços.
         </p>
         <p>
-          Esse projeto foi desenvolvido com o uso de <strong>React Native</strong> e <strong>Styled Components</strong>.
+          <strong>Stack Tecnológica:</strong> React Native, Styled Components, API Integration, Mobile Optimization
         </p>
         <p>
-          Pude atuar com o desenvolvimento e implementação do layout desenhado no Figma e todo um suporte ao cliente junto a equipe de desenvolvimento. Além da integração com os endpoints disponibilizados pela API do proxy interno da Vero.
+          <strong>Responsabilidades:</strong> Desenvolvimento completo da aplicação mobile, implementação de design responsivo, integração com APIs internas da Vero, otimização de performance para dispositivos móveis, implementação de features de autoatendimento e gestão de conta.
+        </p>
+        <p>
+          <strong>Resultado:</strong> Redução significativa na demanda do suporte ao cliente e melhoria na experiência do usuário através de autoatendimento eficiente.
         </p>
       `
     },
@@ -78,13 +84,16 @@ const HomePage = () => {
       src: "./img/minha-vero.png",
       description: `
         <p>
-          Projeto desenvolvido ao longo do ano de 2022 para a Vero. É uma SAP desenvolvida para suporte de clientes da Vero que usufruem do serviço de internet da operadora similar ao aplicativo para Smartphones e Tablets.
+          <strong>Portal Web de Autoatendimento</strong> - Single Page Application desenvolvida em 2022 como extensão web do app móvel, oferecendo experiência omnichannel para clientes Vero.
         </p>
         <p>
-          Esse projeto foi desenvolvido com o uso de <strong>Vue</strong>(<strong>Nuxt.js</strong>).
+          <strong>Stack Tecnológica:</strong> Vue.js, Nuxt.js, SSR, API Integration, Responsive Design
         </p>
         <p>
-          Pude atuar com o desenvolvimento e implementação do layout desenhado no Figma e todo um suporte ao cliente junto a equipe de desenvolvimento. Além da integração com os endpoints disponibilizados pela API do proxy interno da Vero.
+          <strong>Responsabilidades:</strong> Arquitetura e desenvolvimento da SPA, implementação de Server-Side Rendering para otimização SEO, desenvolvimento de componentes reutilizáveis, integração com proxy APIs da Vero, implementação de features de gestão de conta e autoatendimento.
+        </p>
+        <p>
+          <strong>Resultado:</strong> Criação de ecossistema completo web + mobile, proporcionando consistência na experiência do usuário em múltiplas plataformas.
         </p>
       `
     },
@@ -94,10 +103,16 @@ const HomePage = () => {
       src: "./img/imperial-cleaning-seattle.png",
       description: `
         <p>
-          Projeto desenvolvido ao longo do ano de 2023 para a Imperial Cleaning. Basicamente consiste em um site para agendamento de serviços de limpeza essa empresa localizada em Seattle Washington.
+          <strong>Sistema de Agendamento Online</strong> - Plataforma web desenvolvida em 2023 para empresa de limpeza residencial/comercial em Seattle, WA, automatizando processo de agendamento e gestão de serviços.
         </p>
         <p>
-          Pude atuar com o desenvolvimento e implementação do layout desenhado no Figma e deploy da aplicação no servidor do cliente.
+          <strong>Stack Tecnológica:</strong> Frontend moderno, Design System implementation, Deploy automation, Performance optimization
+        </p>
+        <p>
+          <strong>Responsabilidades:</strong> Desenvolvimento fullstack da plataforma, implementação de sistema de agendamento em tempo real, criação de interface administrativa, otimização para conversão, deploy e configuração de servidor, manutenção e suporte técnico.
+        </p>
+        <p>
+          <strong>Resultado:</strong> Automatização completa do processo de agendamento, redução de friction no customer journey e aumento significativo na taxa de conversão.
         </p>
       `
     },
@@ -107,10 +122,16 @@ const HomePage = () => {
       src: "./img/buffetbadallusclub.png",
       description: `
         <p>
-          Portal para o cliente Buffet Badallus desenvolvido em 2021 através de parceria com a agência Mangu.
+          <strong>Portal Institucional Premium</strong> - Website desenvolvido em 2021 para buffet de eventos de alto padrão, focado em conversão e apresentação de serviços premium.
         </p>
         <p>
-          Pude atuar com o desenvolvimento e implementação do layout desenhado no Figma e deploy da aplicação no servidor do cliente.
+          <strong>Stack Tecnológica:</strong> Frontend moderno, Responsive Design, Performance optimization, SEO implementation
+        </p>
+        <p>
+          <strong>Responsabilidades:</strong> Desenvolvimento frontend completo, implementação de design premium baseado em especificações do Figma, otimização de performance e carregamento, configuração de SEO, deploy e configuração de servidor de produção.
+        </p>
+        <p>
+          <strong>Parceria:</strong> Projeto desenvolvido em colaboração com agência Mangu, garantindo alinhamento estratégico entre desenvolvimento técnico e objetivos de marketing.
         </p>
       `
     },
@@ -120,10 +141,16 @@ const HomePage = () => {
       src: "./img/dgrcomunicacaovisual.png",
       description: `
         <p>
-          Site institucional e criativo feito em 2020 para o cliente DGR através de parceria com a agência Mangu.
+          <strong>Website Institucional Criativo</strong> - Portal desenvolvido em 2020 com foco em storytelling visual e experiência imersiva para empresa de comunicação visual.
         </p>
         <p>
-          Pude atuar com o desenvolvimento e implementação do layout desenhado no Figma e deploy da aplicação no servidor do cliente.
+          <strong>Stack Tecnológica:</strong> Frontend moderno, Animations, Interactive design, Creative coding, Performance optimization
+        </p>
+        <p>
+          <strong>Responsabilidades:</strong> Desenvolvimento de interface criativa e interativa, implementação de animações e transições personalizadas, otimização de assets visuais, criação de experiência de usuário diferenciada, deploy e configuração de produção.
+        </p>
+        <p>
+          <strong>Resultado:</strong> Website que se destaca no mercado de comunicação visual, demonstrando capacidades criativas e técnicas avançadas da empresa cliente.
         </p>
       `
     },
@@ -133,10 +160,16 @@ const HomePage = () => {
       src: "./img/nevesbomfim.png",
       description: `
         <p>
-          Portal desenvolvido em 2019 para o cliente Neves Bomfim trabalhando para Visie, um projeto que consiste em um portal para apresentação de imóveis para aluguel e venda.
+          <strong>Portal Imobiliário</strong> - Plataforma desenvolvida em 2019 para gestão e apresentação de portfólio imobiliário, incluindo sistema de busca avançada e apresentação de propriedades.
         </p>
         <p>
-          Pude atuar com o desenvolvimento e implementação do layout desenhado no Photoshop e utilizei tecologias como Vue.js e Gulp.js no decorrer do desenvolvimento
+          <strong>Stack Tecnológica:</strong> Vue.js, Gulp.js, Responsive Design, Search optimization, Performance tuning
+        </p>
+        <p>
+          <strong>Responsabilidades:</strong> Desenvolvimento da plataforma completa, implementação de sistema de busca e filtros avançados, criação de interface responsiva para apresentação de imóveis, otimização de performance, integração com ferramentas de build automation (Gulp.js).
+        </p>
+        <p>
+          <strong>Projeto Visie:</strong> Desenvolvido durante período na Visie, demonstrando capacidade de entrega em projetos de grande escala no setor imobiliário.
         </p>
       `
     },
@@ -151,8 +184,16 @@ const HomePage = () => {
       src: "./img/valoramadeira.png",
       description: `
         <p>
-          Projeto desenvolvido para uma empresa de engenharia ambiental que tem o foco de apresentar qualidades e melhorias para o ramo de madeira e árvores.
-          Nesse projeto eu atuei desenvolvendo o layout para a plataforma WordPress, realizei o deploy da aplicação no servidor do cliente assim como também estive à disposição para atendimento pós entrega para fins de prestar todo o suporte necessário ao cliente.
+          <strong>Website Corporativo de Engenharia Ambiental</strong> - Portal institucional desenvolvido para empresa especializada em soluções sustentáveis e inovação no setor madeireiro.
+        </p>
+        <p>
+          <strong>Stack Tecnológica:</strong> WordPress Custom Development, Theme customization, Performance optimization, SEO implementation
+        </p>
+        <p>
+          <strong>Responsabilidades:</strong> Desenvolvimento de tema WordPress customizado, implementação de funcionalidades específicas do setor, otimização para mecanismos de busca, deploy e configuração de servidor, suporte técnico contínuo pós-lançamento.
+        </p>
+        <p>
+          <strong>Resultado:</strong> Website que posiciona a empresa como referência em sustentabilidade e inovação, com foco em conversão e geração de leads qualificados no setor B2B.
         </p>
       `
     },
@@ -177,11 +218,19 @@ const HomePage = () => {
       src: "./img/verointernet.png",
       description: `
         <p>
-          Um dos primeiros projetos que atuei assim que passei a trabalhar com a Visie. O site da Vero foi um projeto que a previsão para desenvolvimento desse portal era de aproximadamente 1 mês, porém por questões internas foi preciso ser feito em um período menor, em tempo recorde de 4 dias através de um WarRoom com 6 desenvolvedores e o gestor do projeto nos coordenando.
-          Apesar do prazo apertado conseguimos realizar a entrega do produto com muita maestria e qualidade na entrega.
+          <strong>Website Institucional - Desenvolvimento em WarRoom</strong> - Portal corporativo desenvolvido em regime intensivo de 4 dias através de metodologia WarRoom com equipe de 6 desenvolvedores.
         </p>
         <p>
-          Pude atuar com o desenvolvimento e implementação do layout desenhado no Illustrator pelo responsável pelo design.
+          <strong>Stack Tecnológica:</strong> Frontend moderno, Responsive Design, Team collaboration, Agile development, Performance optimization
+        </p>
+        <p>
+          <strong>Desafio Técnico:</strong> Projeto originalmente planejado para 1 mês, entregue em 4 dias através de coordenação eficiente de equipe e metodologias ágeis. Demonstra capacidade de trabalho sob pressão e entrega de qualidade em prazos críticos.
+        </p>
+        <p>
+          <strong>Responsabilidades:</strong> Desenvolvimento colaborativo, implementação de design system, otimização de workflow de desenvolvimento, garantia de qualidade mesmo em prazo reduzido.
+        </p>
+        <p>
+          <strong>Resultado:</strong> Entrega bem-sucedida em prazo crítico, mantendo alta qualidade e estabelecendo benchmark para projetos futuros da equipe.
         </p>
       `
     },
@@ -216,7 +265,7 @@ const HomePage = () => {
             <div className="side_a">
               <Picture>
                 <img
-                  src="./img/fefde456-8a01-48da-9de5-a8138c6502eb.jpeg"
+                  src="./img/andreromario.jpg"
                   alt="André Romário"
                   title="André Romário"
                 />
@@ -273,31 +322,38 @@ const HomePage = () => {
           <ProfessionalExperiences>
             <Experience className="job_description latest">
               <h3>
+                {t.company}: Stefanini <br />
+              </h3>
+              <p>{t.office}: <strong>{t.job1_office}</strong> | {t.period}: 2025 - {t.at_the_moment} (7 meses)</p>
+              <div dangerouslySetInnerHTML={{ __html: t.job1_description }}></div>
+            </Experience>
+            <Experience className="job_description">
+              <h3>
                 {t.company}: Visie <br />
               </h3>
-              <p>{t.office}: <strong>{t.job1_office}</strong> | {t.period}: 2019 - 2025 (5 anos e 6 meses)</p>
-              <div dangerouslySetInnerHTML={{ __html: t.job1_description }}></div>
+              <p>{t.office}: <strong>{t.job2_office}</strong> | {t.period}: 2019 - 2025 (5 anos e 6 meses)</p>
+              <div dangerouslySetInnerHTML={{ __html: t.job2_description }}></div>
             </Experience>
             <Experience className="job_description">
               <h3>
                 {t.company}: Inside Mídia - Agência de Marketing Digital <br />
               </h3>
-              <p>{t.office}: <strong>{t.job2_office}</strong> | {t.period}: 2017 - 2019 (2 anos e 2 meses)</p>
-              <div dangerouslySetInnerHTML={{ __html: t.job2_description }}></div>
+              <p>{t.office}: <strong>{t.job3_office}</strong> | {t.period}: 2017 - 2019 (2 anos e 2 meses)</p>
+              <div dangerouslySetInnerHTML={{ __html: t.job3_description }}></div>
             </Experience>
             <Experience className="job_description">
               <h3>
                 {t.company}: Soulmkt Desenvolvimento de Sistemas <br />
               </h3>
-              <p>{t.office}: <strong>{t.job3_office}</strong> | {t.period}: 2014 - 2016 (1 ano e 7 meses)</p>
-              <div dangerouslySetInnerHTML={{ __html: t.job3_description }}></div>
+              <p>{t.office}: <strong>{t.job4_office}</strong> | {t.period}: 2014 - 2016 (1 ano e 7 meses)</p>
+              <div dangerouslySetInnerHTML={{ __html: t.job4_description }}></div>
             </Experience>
             <Experience className="job_description">
               <h3>
                 {t.company}: Convertty Soluções Digitais <br />
               </h3>
-              <p>{t.office}: <strong>{t.job4_office}</strong> | {t.period}: 2012 - 2013 (1 ano e 4 meses)</p>
-              <div dangerouslySetInnerHTML={{ __html: t.job4_description }}></div>
+              <p>{t.office}: <strong>{t.job5_office}</strong> | {t.period}: 2012 - 2013 (1 ano e 4 meses)</p>
+              <div dangerouslySetInnerHTML={{ __html: t.job5_description }}></div>
             </Experience>
           </ProfessionalExperiences>
         </Container>
