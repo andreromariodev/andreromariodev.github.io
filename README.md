@@ -1,42 +1,110 @@
-Check https://andreromariodev.github.io/
+# 🚀 Portfólio André Romário
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+**Acesse:** https://andreromariodev.github.io/
 
-## Getting Started
+Este é o repositório do meu portfólio pessoal como **Desenvolvedor Front-end**, desenvolvido para apresentar minha experiência profissional, projetos realizados e habilidades técnicas adquiridas ao longo de mais de 13 anos na área de desenvolvimento web e mobile.
 
-First, run the development server:
+## 📋 Sobre o Projeto
+
+O portfólio foi construído com **Next.js** e apresenta:
+
+- **Perfil Profissional**: Informações sobre minha trajetória como desenvolvedor especializado em arquiteturas modernas e soluções escaláveis
+- **Experiência Profissional**: Histórico detalhado de atuação em empresas como Stefanini, Visie, Inside Mídia, entre outras
+- **Portfólio de Projetos**: Showcase de projetos desenvolvidos, incluindo sistemas de gestão, plataformas web, e-commerce e aplicações mobile
+- **Stack Tecnológica**: Demonstração das principais tecnologias dominadas (React, Vue.js, Next.js, TypeScript, Node.js, etc.)
+- **Formação Acadêmica**: Informações sobre graduação em Sistemas para Internet e pós-graduação em Aplicativos Móveis
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Framework**: [Next.js](https://nextjs.org) com Pages Router
+- **Linguagem**: JavaScript/React
+- **Estilização**: Styled Components + CSS Modules
+- **Ícones**: SVG customizados com @svgr/webpack
+- **Deploy**: GitHub Pages (export estático)
+- **PWA**: Configurado com next-pwa
+
+## 🚀 Como Executar Localmente
+
+Clone o repositório e instale as dependências:
+
+```bash
+git clone https://github.com/andreromariodev/andreromariodev.github.io.git
+cd andreromariodev.github.io
+npm install
+```
+
+Execute o servidor de desenvolvimento:
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
+# ou
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador para visualizar o projeto.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## 📂 Estrutura do Projeto
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+```
+├── components/          # Componentes React reutilizáveis
+│   ├── Container/       # Container principal
+│   ├── Experience/      # Componente de experiência profissional
+│   ├── Project/         # Componente de projeto do portfólio
+│   └── Layouts/         # Layouts e componentes de layout
+├── pages/               # Páginas do Next.js
+│   ├── index.js         # Página principal do portfólio
+│   └── api/             # API routes (dados dos projetos)
+├── assets/              # Assets estáticos (SVGs, imagens)
+├── public/              # Arquivos públicos (imagens, CV, manifesto PWA)
+├── styles/              # Estilos globais e módulos CSS
+└── translations.js      # Arquivo de traduções (PT-BR/EN-US)
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## 💼 Principais Funcionalidades
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Design Responsivo**: Interface adaptada para desktop, tablet e mobile
+- **PWA Ready**: Progressive Web App com manifesto e service worker
+- **Multilíngua**: Suporte para português e inglês (configurável)
+- **Performance Otimizada**: Build estático para máxima performance
+- **SEO Friendly**: Meta tags e estrutura otimizada para motores de busca
+- **Componentes Modulares**: Arquitetura componentizada e reutilizável
 
-## Learn More
+## 📈 Projetos em Destaque
 
-To learn more about Next.js, take a look at the following resources:
+O portfólio apresenta uma seleção de projetos que representam minha evolução técnica:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+- **Alper Seguros**: Sistema de gestão de cotações (2023-2024)
+- **Imperial Cleaning**: Plataforma de agendamento para Seattle, WA (2023)
+- **Buffet Badallus Club**: Portal institucional premium (2021)
+- **Neves Bomfim**: Portal imobiliário com Vue.js (2019)
+- **Valora Madeira**: Website corporativo sustentável
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎯 Objetivo
 
-## Deploy on Vercel
+Este portfólio tem como objetivo demonstrar minha capacidade técnica e experiência em:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Desenvolvimento de interfaces modernas e performáticas
+- Arquitetura de aplicações escaláveis
+- Implementação de melhores práticas de desenvolvimento
+- Trabalho com metodologias ágeis e times multidisciplinares
+- Foco em performance, acessibilidade e experiência do usuário
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+## 📞 Contato
+
+- **Email**: andreromario@live.com
+- **LinkedIn**: [André Romário](https://linkedin.com/in/andreromario)
+- **GitHub**: [andreromariodev](https://github.com/andreromariodev)
+- **Portfólio**: https://andreromariodev.github.io/
+
+## 📄 Licença
+
+Este projeto é de uso pessoal para apresentação profissional. O código está disponível para referência e aprendizado.
+
+---
+
+**Desenvolvido com ❤️ por André Romário**  
+*Desenvolvedor Front-end especializado em React, Vue.js e Next.js*
