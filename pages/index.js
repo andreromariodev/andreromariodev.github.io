@@ -62,7 +62,7 @@ const HomePage = () => {
       src: "./img/app-minha-vero.png",
       description: `
         <p>
-          Projeto desenvolvido ao longo do ano de 2022 para a Vero. É um aplicativo desenvolvido para suporte de clientes da Vero que usufruem do serviço de internet da operadora.
+          Projeto desenvolvido ao longo do aaaaaano de 2022 para a Vero. É um aplicativo desenvolvido para suporte de clientes da Vero que usufruem do serviço de internet da operadora.
         </p>
         <p>
           Esse projeto foi desenvolvido com o uso de <strong>React Native</strong> e <strong>Styled Components</strong>.
