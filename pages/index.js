@@ -41,6 +41,25 @@ const HomePage = () => {
 
   const [projects, setProjects] = useState([
     {
+      url: "https://sl1nk.com/3pvDn",
+      title: "Portal da Defensoria Pública de MG",
+      src: "./img/defensoria-mg.png",
+      description: `
+        <p>
+          <strong>Portal Institucional - Redesign e Otimização</strong> - Desenvolvido ao longo do ano de 2025 é um projeto de modernização do portal oficial da Defensoria Pública de Minas Gerais, focado em nova identidade visual e performance otimizada.
+        </p>
+        <p>
+          <strong>Stack Tecnológica:</strong> Frontend moderno, Performance optimization, Design System implementation, SEO enhancement
+        </p>
+        <p>
+          <strong>Responsabilidades:</strong> Colaboração no desenvolvimento da nova identidade visual digital, implementação de melhorias significativas no tempo de carregamento das páginas, otimização de performance e Core Web Vitals, refatoração de componentes para melhor usabilidade e acessibilidade.
+        </p>
+        <p>
+          <strong>Resultado:</strong> Modernização completa da presença digital da instituição, com carregamento mais rápido, melhor experiência do usuário e design alinhado com a identidade institucional atualizada.
+        </p>
+      `
+    },
+    {
       url: "https://bit.ly/3BxIdfk",
       title: "Alper Seguros",
       src: "./img/alper-seguros.png",
