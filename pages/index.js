@@ -343,35 +343,35 @@ const HomePage = () => {
               <h3>
                 {t.company}: Stefanini <br />
               </h3>
-              <p>{t.office}: <strong>{t.job1_office}</strong> | {t.period}: 2025 - {t.at_the_moment} (7 meses)</p>
+              <p>{t.office}: <strong>{t.job1_office}</strong> | {t.period}: Janeiro/2025 - {t.at_the_moment}</p>
               <div dangerouslySetInnerHTML={{ __html: t.job1_description }}></div>
             </Experience>
             <Experience className="job_description">
               <h3>
                 {t.company}: Visie <br />
               </h3>
-              <p>{t.office}: <strong>{t.job2_office}</strong> | {t.period}: 2019 - 2025 (5 anos e 6 meses)</p>
+              <p>{t.office}: <strong>{t.job2_office}</strong> | {t.period}: Agosto/2019 - Janeiro/2025</p>
               <div dangerouslySetInnerHTML={{ __html: t.job2_description }}></div>
             </Experience>
             <Experience className="job_description">
               <h3>
                 {t.company}: Inside Mídia - Agência de Marketing Digital <br />
               </h3>
-              <p>{t.office}: <strong>{t.job3_office}</strong> | {t.period}: 2017 - 2019 (2 anos e 2 meses)</p>
+              <p>{t.office}: <strong>{t.job3_office}</strong> | {t.period}: Março/2017 - Maio/2019</p>
               <div dangerouslySetInnerHTML={{ __html: t.job3_description }}></div>
             </Experience>
             <Experience className="job_description">
               <h3>
                 {t.company}: Soulmkt Desenvolvimento de Sistemas <br />
               </h3>
-              <p>{t.office}: <strong>{t.job4_office}</strong> | {t.period}: 2014 - 2016 (1 ano e 7 meses)</p>
+              <p>{t.office}: <strong>{t.job4_office}</strong> | {t.period}: Agosto/2014 - Janeiro/2016</p>
               <div dangerouslySetInnerHTML={{ __html: t.job4_description }}></div>
             </Experience>
             <Experience className="job_description">
               <h3>
                 {t.company}: Convertty Soluções Digitais <br />
               </h3>
-              <p>{t.office}: <strong>{t.job5_office}</strong> | {t.period}: 2012 - 2013 (1 ano e 4 meses)</p>
+              <p>{t.office}: <strong>{t.job5_office}</strong> | {t.period}: Agosto/2012 - Dezembro/2013</p>
               <div dangerouslySetInnerHTML={{ __html: t.job5_description }}></div>
             </Experience>
           </ProfessionalExperiences>
@@ -426,7 +426,7 @@ const HomePage = () => {
             </li>
             <li title="JavaScript">
               <Javascript />
-              JavaScript
+              TypeScript & JavaScript
             </li>
             <li title="HTML5">
               <Html />
