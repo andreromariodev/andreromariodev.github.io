@@ -24,10 +24,11 @@ export const Title = styled.div`
 export const Button = styled.button`
   cursor: pointer;
   background-color: var(--primary);
-  padding: 5px 10px;
+  padding: 10px 20px;
   border: none;
   border-radius: 5px;
   transition: all 0.2s;
+  color: var(--white);
   
   &:hover {
     opacity: 0.8;

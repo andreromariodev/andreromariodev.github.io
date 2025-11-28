@@ -92,7 +92,7 @@ export const MobileToggle = styled.div`
   }
 
   span {
-    font-size: 20px;
+    font-size: 1.5rem;
     text-transform: uppercase;
   }
 

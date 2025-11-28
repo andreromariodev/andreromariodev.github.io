@@ -284,7 +284,7 @@ const HomePage = () => {
             <div className="side_a">
               <Picture>
                 <img
-                  src="./img/andreromario.jpg"
+                  src="./img/novo-linkedin.jpg"
                   alt="André Romário"
                   title="André Romário"
                 />

@@ -72,11 +72,9 @@ export const ptBR = {
   development: "Deselvolvido com",
   about: "Sobre",
   about_intro: "",
-  about_description: `<p>Desenvolvedor Front-end com mais de 13 anos de experiência em desenvolvimento web e mobile, especializado em arquiteturas modernas e desenvolvimento de soluções escaláveis. 
-    Graduado em Sistemas para Internet com pós-graduação em Aplicativos Móveis, possuo expertise consolidada em <strong>JavaScript</strong>, <strong>React</strong>, <strong>Vue</strong>, <strong>TypeScript</strong> e ecossistema <strong>Node.js</strong>.</p> 
-    <p>Atuo como desenvolvedor experiente em projetos de alta complexidade, com foco em performance, escalabilidade e experiência do usuário. 
-    Tenho experiência em definição de arquiteturas de frontend, estabelecimento de padrões de desenvolvimento e implementação de práticas que impactam diretamente nos resultados de negócio.</p>
-    <p>Minha missão é entregar soluções robustas e escaláveis que geram valor real para o produto e usuários finais, sempre aplicando as melhores práticas de engenharia de software.</p>
+  about_description: `<p>Trabalho desde <strong>2012</strong> com programação, e nos últimos <strong>8 anos</strong> foquei total minha experiência em desenvolvimento <strong>front-end</strong>, construí uma trajetória sólida passando por empresas como o grupo Visie e atualmente integro o grupo Stefanini. Utilizo tecnologias modernas como <strong>React</strong>, <strong>React Native</strong>, <strong>Vue.js</strong> entregando soluções escaláveis e de alta performance.</p>
+    <p>Tenho expertise na criação de arquiteturas de componentes reutilizáveis com abordagem atômica(<strong>Atomic Design</strong>), utilizando estilização via <strong>Styled Components</strong> ou <strong>Tailwind</strong> ou <strong>CSS Modules</strong> e <strong>TypeScript</strong> para garantir padronização, agilidade e qualidade no código.</p>
+    <p>Participo de maneira ativa na entrega de aplicações web e mobile com foco em performance, responsividade, manutenibilidade do código e usabilidade para o usuário, sempre alinhado às boas práticas, <strong>integração contínua</strong> e <strong>metodologias ágeis</strong>.</p>
   `,
   institute: "Instituição",
   period: "Período",
@@ -88,18 +86,18 @@ export const ptBR = {
   company: "Empresa",
   office: "Cargo",
   main_responsibilities: "Principais responsabilidades",
-  job1_office: "Desenvolvedor Front-end",
+  job1_office: "Desenvolvedor Front-end Pleno",
   job1_description: `<ul>
       <li><strong>Projetos Estratégicos de Grande Porte:</strong> Atuo em projetos corporativos de alta complexidade na Stefanini, utilizando <strong>Vue.js</strong>, <strong>React</strong> e <strong>TypeScript</strong> para desenvolver interfaces responsivas e altamente performáticas.</li>
-      <li><strong>WordPress Enterprise:</strong> Desenvolvo componentes personalizados para o editor <strong>Gutenberg</strong> e criao temas exclusivos para demandas confidenciais, sempre priorizando experiência do usuário e melhores práticas de desenvolvimento.</li>
-      <li><strong>Metodologias Ágeis:</strong> Trabalho em ambientes <strong>Scrum</strong> e <strong>Kanban</strong>, participando ativamente de cerimônias ágeis e colaborando com times multidisciplinares para garantir entregas frequentes e de alta qualidade técnica.</li>
-      <li><strong>Cultura DevOps:</strong> Atuo em contexto alinhado às práticas <strong>DevOps</strong>, com integração contínua (CI), versionamento <strong>Git</strong> avançado e deploy automatizado, focando na escalabilidade e evolução técnica dos projetos.</li>
+      <li><strong>WordPress Enterprise:</strong> Desenvolvi componentes personalizados para o editor <strong>Gutenberg</strong> e fiz a criação do temas exclusivo para o portal da Defensoria Pública de Minas Gerais, projeto priorizando experiência do usuário, acessibilidade e melhores práticas de desenvolvimento para manutenibilidade.</li>
+      <li><strong>Metodologias Ágeis:</strong> Utilizamos <strong>Scrum</strong> e <strong>Kanban</strong>, tenho papel ativo nas cerimônias e colaborando com times multidisciplinares para garantir entregas frequentes e de alta qualidade técnica.</li>
+      <li><strong>Cultura DevOps:</strong> Atuo em contexto alinhado às práticas de <strong>DevOps</strong>, com integração contínua (CI), versionamento <strong>Git</strong> e deploy automatizado, focando na escalabilidade, manutenção e evolução técnica dos projetos.</li>
       <li><strong>Performance e Arquitetura:</strong> Implemento soluções organizadas e escaláveis, aplicando padrões de arquitetura moderna e otimizações de performance para sistemas de grande escala.</li>
     </ul>
   `,
-  job2_office: "Desenvolvedor Front-end",
+  job2_office: "Desenvolvedor Front-end Pleno",
   job2_description: `<ul>
-      <li><strong>Arquitetura e Desenvolvimento Técnico:</strong> Desenvolvi arquiteturas de frontend para sistemas complexos (SAPs) utilizando <strong>React</strong>, <strong>Vue.js</strong>, <strong>Next.js</strong> e <strong>Nuxt.js</strong>, aplicando padrões de desenvolvimento e boas práticas.</li>
+      <li><strong>Arquitetura e Desenvolvimento Técnico:</strong> Desenvolvi arquiteturas de frontend para sistemas complexos (SAPs) utilizando <strong>React</strong>, <strong>Vue.js</strong>, <strong>Next.js</strong> e <strong>Nuxt.js</strong>, aplicando padrões de desenvolvimento e boas práticas com foco em manutenibilidade do código dos projetos.</li>
       <li><strong>Design System e Componentização:</strong> Projetei e implementei design systems escaláveis utilizando arquitetura atômica, <strong>Styled Components</strong>, <strong>Tailwind CSS</strong> e <strong>TypeScript</strong>, resultando em 40% de redução no tempo de desenvolvimento de novas features.</li>
       <li><strong>Performance e Otimização:</strong> Implementei iniciativas de otimização de performance, incluindo SSR/SSG, code splitting e lazy loading, alcançando melhorias de 60% no Core Web Vitals dos projetos.</li>
       <li><strong>Mobile Development:</strong> Arquitetei e desenvolvi aplicações mobile cross-platform com <strong>React Native</strong>, implementando padrões de desenvolvimento que garantiram consistência entre iOS e Android.</li>
@@ -122,7 +120,7 @@ export const ptBR = {
       <li><strong>Otimização e Performance:</strong> Implementei estratégias de otimização de performance, cache e SEO técnico, resultando em melhor posicionamento nos motores de busca e experiência do usuário.</li>
     </ul>
   `,
-  job4_office: "Desenvolvedor Web",
+  job4_office: "Desenvolvedor Full-stack",
   job4_description: `
     <ul>
       <li><strong>Desenvolvimento E-commerce:</strong> Liderei o desenvolvimento e manutenção de lojas virtuais complexas utilizando <strong>Magento</strong> e <strong>Joomla</strong>, implementando customizações que aumentaram a taxa de conversão em 30%.</li>
