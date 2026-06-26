@@ -113,7 +113,7 @@ const HeaderComponent = (props) => {
                 </a>
               </MenuItem>
               <MenuItem>
-                <a aria-label={t.my_cv} title={t.my_cv} href="/curriculo-2026.pdf" target="_blank" download>{t.my_cv}</a>
+                <a aria-label={t.my_cv} title={t.my_cv} href="/V2Andre_Romario_Desenvolvedor_Front_Senior.pdf" target="_blank" download>{t.my_cv}</a>
               </MenuItem>
               <MenuItem>
                 <a aria-label={t.contact} title={t.contact} href="mailto:andreromario@live.com">{t.contact}</a>
